@@ -11,10 +11,12 @@ void setup() {
 
   //use mask
   waldo.mask(glass);
+  
+  imageMode(CENTER);
 }
 
 void draw() {
   background(0);
   //draw image
-  image(waldo, 150, 110);
+  image(waldo, width/2, height/2);
 }
